@@ -2,9 +2,8 @@
   "name": "nursery-search-web",
   "version": "1.0.0",
   "description": "Site to look for a nursery.",
-  "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server": "tsc server.ts && node server.js"
   },
   "repository": {
     "type": "git",
@@ -21,7 +20,9 @@
     "react-dom": "^16.0.0"
   },
   "devDependencies": {
+    "@types/express": "^4.0.37",
     "dotenv-webpack": "^1.5.4",
+    "express": "^4.16.1",
     "ts-loader": "^2.3.7",
     "typescript": "^2.5.3",
     "webpack": "^3.6.0"
