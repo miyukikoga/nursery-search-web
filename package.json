@@ -1,0 +1,30 @@
+{
+  "name": "nursery-search-web",
+  "version": "1.0.0",
+  "description": "Site to look for a nursery.",
+  "scripts": {
+    "server": "tsc server.ts && node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miyukikoga/nursery-search-web.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miyukikoga/nursery-search-web/issues"
+  },
+  "homepage": "https://github.com/miyukikoga/nursery-search-web#readme",
+  "dependencies": {
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.0.37",
+    "dotenv-webpack": "^1.5.4",
+    "express": "^4.16.1",
+    "ts-loader": "^2.3.7",
+    "typescript": "^2.5.3",
+    "webpack": "^3.6.0"
+  }
+}
